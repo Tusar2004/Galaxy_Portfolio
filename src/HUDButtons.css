@@ -1,0 +1,26 @@
+.hud-buttons {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.hud-enter-btn {
+  pointer-events: auto;
+  background: rgba(20, 20, 20, 0.85);
+  border: 2px solid #0ea5e9;
+  color: white;
+  font-size: 15px;
+  padding: 10px 22px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 12px rgba(14, 165, 233, 0.6);
+}
+
+.hud-enter-btn:hover {
+  background: #0ea5e9;
+  color: black;
+  border-color: #38bdf8;
+  box-shadow: 0 0 18px #38bdf8;
+}
